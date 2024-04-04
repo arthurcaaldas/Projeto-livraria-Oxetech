@@ -1,0 +1,15 @@
+.container {
+  width: 1024px;
+  margin: 0 auto;
+}
+
+.button {
+  border: 1px solid var(--color-tertiary);
+  padding: .8rem;
+  border-radius: .5rem;
+}
+
+.button:hover {
+  box-shadow: 2px 2px var(--color-tertiary);
+}
+
