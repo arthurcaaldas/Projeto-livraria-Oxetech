@@ -1,0 +1,10 @@
+.about {
+  background-color: var(--color-primary);
+  color: var(--color-white);
+  text-align: center;
+  line-height: 1.3;
+}
+
+.about strong {
+  font-size: 3rem;
+}
