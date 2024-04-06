@@ -11,13 +11,13 @@
 </head>
 <body>
   <header>
-    <div class="container header">
+    <div class="container flex justify-space-around align-items-center">
       <div>
-        <img src="./assets/image.css/OxetechLivraria.png" alt="Logo Marca">
+        <img class="pt-1 pb-1" src="./assets/image.css/OxetechLivraria.png" alt="Logo Marca">
       </div>
       
       <nav>
-        <ul>
+        <ul class="flex justify-space-between">
           <li><a href="#">Início</a></li>
           <li><a href="#">Buscar</a></li>
           <li><a href="#sobrenos">Sobre nós</a></li>
@@ -28,41 +28,57 @@
   </header>
   
   <main>
-    <section class="carousel py-3">
-      <section class="slider-wrapper container">
-        <button class="slide-arrow" id="slide-arrow-prev">
+    <section class="carousel">
+      <div class="my-2">
+        <h1>Bem vindo(a)!</h1>
+        <p>Aqui sua leitura se torna uma grande experiência.</p>
+      </div>
+      <div class="slider-wrapper container">
+        <button class="slide-arrow flex pl-1 pr-1" id="slide-arrow-prev">
           &#8249;
         </button>
-        <button class="slide-arrow" id="slide-arrow-next">
+        <button class="slide-arrow flex pl-1 pr-1" id="slide-arrow-next">
           &#8250;
         </button>
-        <ul class="slides-container" id="slides-container">
-          <li class="slide"></li>
-          <li class="slide"></li>
-          <li class="slide"></li>
-          <li class="slide"></li>
+        <ul class="slides-container flex mt-1 pd-0" id="slides-container">
+          <li class="slide flex align-items-center justify-center flex-direction-column ">
+            <h3>Encontre seu<br />livro aqui!</h3>
+          </li>
+          <li class="slide flex align-items-center justify-center flex-direction-column ">
+            <h3>Ficção</h3>
+            <p>"Embarque em aventuras infinitas, onde a imaginação ganha vida e os sonhos se tornam realidade."</p>
+          </li>
+          <li class="slide flex align-items-center justify-center flex-direction-column ">
+            <h3>Romance</h3>
+            <p>"Descubra o poder do amor em histórias que aquecem o coração e encantam a alma."</p>
+          </li>
+          <li class="slide flex align-items-center justify-center flex-direction-column ">
+            <h3>Tecnologia</h3>
+            <p>"Explore o futuro hoje, mergulhe em inovações e desvende os mistérios da tecnologia."</p>
+          </li>
         </ul>
-      </section>
+      </div>
     </section>
     
-    <section class="about py-3" id="sobrenos">
+    <section class="about py-3 my-3" id="sobrenos">
       <div class="container">
-        <h2>
-          <strong>Bem-vindo(a)</strong> <br /> à OxeTech-Livraria, onde as histórias ganham vida e os mundos 
+        <h2 class="pb-15">Sobre nós!</h2>
+        <p>
+          OxeTech-Livraria é onde as histórias ganham vida e os mundos 
           se encontram. Nossa missão é levar você em uma jornada literária que 
           transcende os limites da imaginação. Explore os reinos do romance, 
           mergulhe nas aventuras da ficção, descubra os segredos da tecnologia e 
           encontre inspiração no auto conhecimento. Na OxeTech-Livraria, cada página é uma 
           porta para um universo de possibilidades. Venha fazer parte dessa 
           jornada e deixe sua imaginação voar alto!
-        </h2>
+        </p>
       </div>
     </section>
   </main>
   
-  <!-- <footer>
-    <a href="#">Sou colaborador(a)</a>
-  </footer> -->
+  <footer>
+    <a href="./collaborator.html">Sou colaborador(a)</a>
+  </footer>
   
   <script src="./carousel.js"></script>
 </body>
