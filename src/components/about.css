@@ -5,6 +5,7 @@
   line-height: 1.3;
 }
 
-.about strong {
-  font-size: 3rem;
+.about h2 {
+  font-family: var(--font-secondary);
+  font-size: 2.7rem;
 }
