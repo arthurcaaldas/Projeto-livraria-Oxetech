@@ -2,22 +2,12 @@ header {
   background-color: var(--color-primary);
 }
 
-.header {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
 header img {
-  width: 15rem;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
+  width: 12rem;
 }
 
 nav ul {
   width: 28rem;
-  display: flex;
-  justify-content: space-between;
 }
 
 nav a {
