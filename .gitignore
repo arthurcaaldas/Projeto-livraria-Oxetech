@@ -1,0 +1,32 @@
+# Arquivos de compilação
+*.o
+*.class
+*.pyc
+*.exe
+*.dll
+*.so
+
+# Arquivos de configuração e ambiente
+.env
+.config
+.log
+.env.local
+
+# Arquivos de dependências e módulos
+node_modules/
+vendor/
+venv/
+.venv/
+*.egg-info/
+
+# Arquivos de build e cache
+.cache/
+.gradle/
+.idea/
+.vscode/
+
+# Arquivos de sistema e temporários
+.DS_Store
+Thumbs.db
+*.tmp
+*.swp
