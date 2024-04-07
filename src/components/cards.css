@@ -1,0 +1,49 @@
+.content-container h2 {
+  color: var(--color-primary);
+  text-align: center;
+ font-size: 3rem;
+}
+
+.content-cards {
+  border: 2px solid #f5822095;
+  width: 220px;
+  border-radius: 10px;
+}
+
+.content-cards img {
+  width: 220px;
+}
+
+figcaption {
+  font-weight: 700;
+}
+
+.autor {
+  font-size: .7rem;
+}
+
+.price {
+  background-color: #f5822095;
+  color: var(--color-black);
+  border-radius: 4px;
+}
+
+.description {
+  text-align: justify;
+}
+
+figure strong {
+  font-weight: 700;
+}
+
+.avaliation img {
+ width: 24px;
+}
+
+.prev {
+  text-align: center;
+}
+
+.prev a {
+  color: var(--color-primary);
+}
