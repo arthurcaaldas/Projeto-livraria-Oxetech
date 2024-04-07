@@ -30,7 +30,7 @@
   <main>
     <section class="carousel">
       <div class="my-2">
-        <h1>Bem vindo(a)!</h1>
+        <h1 id="prev">Bem vindo(a)!</h1>
         <p>Aqui sua leitura se torna uma grande experiência.</p>
       </div>
       <div class="slider-wrapper container">
@@ -42,42 +42,397 @@
         </button>
         <ul class="slides-container flex mt-1 pd-0" id="slides-container">
           <li class="slide flex align-items-center justify-center flex-direction-column ">
-            <h3>Encontre seu<br />livro aqui!</h3>
+            <h3><a href="#classic">Literatura Clássica</a></h3>
+            <p>
+              "Exploração profunda de temas universais e narrativas atemporais 
+              <br />em obras de autores consagrados da história da literatura."
+            </p>
           </li>
           <li class="slide flex align-items-center justify-center flex-direction-column ">
-            <h3>Ficção</h3>
-            <p>"Embarque em aventuras infinitas, onde a imaginação ganha vida e os sonhos se tornam realidade."</p>
+            <h3><a href="#fiction">Ficção</a></h3>
+            <p>
+              "Embarque em aventuras infinitas, onde a imaginação ganha vida e 
+              os sonhos se tornam realidade."
+            </p>
           </li>
           <li class="slide flex align-items-center justify-center flex-direction-column ">
-            <h3>Romance</h3>
-            <p>"Descubra o poder do amor em histórias que aquecem o coração e encantam a alma."</p>
+            <h3><a href="#romance">Romance</a></h3>
+            <p>
+              "Descubra o poder do amor em histórias que aquecem o coração e 
+              encantam a alma."
+            </p>
           </li>
           <li class="slide flex align-items-center justify-center flex-direction-column ">
-            <h3>Tecnologia</h3>
-            <p>"Explore o futuro hoje, mergulhe em inovações e desvende os mistérios da tecnologia."</p>
+            <h3><a href="#tech">Tecnologia</a></h3>
+            <p>
+              "Explore o futuro hoje, mergulhe em inovações e desvende os 
+              mistérios da tecnologia."
+            </p>
           </li>
         </ul>
       </div>
     </section>
     
+    <section class="content-container">
+      <h2 class="mt-4" id="classic">Literatura Clássica</h2>
+      <div class="cards container flex justify-space-between my-4">
+        <div class="content-cards pd-2 mg-05">
+          <figure>
+            <img class="pb-05" 
+            src="https://m.media-amazon.com/images/I/61Z2bMhGicL._AC_UF1000,1000_QL80_.jpg" 
+            alt="Livro Dom Casmurro de Machado de Assis">
+            <div class="flex justify-space-between">
+              <div>
+                <figcaption>Dom Casmurro</figcaption>
+                <p class="autor">Machado de Assis</p>
+                <p class="avaliation flex">
+                  <img src="./assets/image.css/icons8-estrela-48.png" alt="Star">
+                  <img src="./assets/image.css/icons8-estrela-48.png" alt="Star">
+                  <img src="./assets/image.css/icons8-estrela-48.png" alt="Star">
+                  <img src="./assets/image.css/icons8-estrela-48.png" alt="Star">
+                  <img src="./assets/image.css/icons8-estrela-48.png" alt="Star">
+                </p>
+              </div>
+              <p class="price pd-05 flex align-items-center">R$23,99</p>
+            </div>
+            <p class="description py-05">
+              <strong>Sinopse do livro:</strong> Envolvendo mistério, traição e dúvidas sobre o 
+              relacionamento entre Bentinho e Capitu.
+            </p>
+          </figure>
+        </div>
+        
+        <div class="content-cards pd-2 mg-05">
+          <figure>
+            <img class="pb-05" 
+            src=" https://m.media-amazon.com/images/I/41egZIo3eYL._SY445_SX342_.jpg" 
+            alt="Livro Capitães da Areia de Jorge Amado">
+            <div class="flex justify-space-between">
+              <div>
+                <figcaption>Capitães da Areia</figcaption>
+                <p class="autor">Jorge Amado</p>
+                <p class="avaliation flex">
+                  <img src="./assets/image.css/icons8-estrela-48.png" alt="Star">
+                  <img src="./assets/image.css/icons8-estrela-48.png" alt="Star">
+                  <img src="./assets/image.css/icons8-estrela-48.png" alt="Star">
+                  <img src="./assets/image.css/icons8-estrela-48.png" alt="Star">
+                  <img src="./assets/image.css/icons8-estrela-48.png" alt="Star">
+                </p>
+              </div>
+              <p class="price pd-05 flex align-items-center">R$36,96</p>
+            </div>
+            <p class="description py-05">
+              <strong>Sinopse do livro:</strong> Em 'Capitães da Areia', Jorge Amado narra as aventuras e dramas de meninos marginais em Salvador, com sensibilidade e crítica social.
+            </p>
+          </figure>
+        </div>
+        
+        <div class="content-cards pd-2 mg-05">
+          <figure>
+            <img class="pb-05" 
+            src="https://s5.static.brasilescola.uol.com.br/be/2022/08/capa-livro-hora-da-estrela.jpg" 
+            alt="Livro A Hora da Estrela de Clarice Lispector">
+            <div class="flex justify-space-between">
+              <div>
+                <figcaption>A Hora da Estrela</figcaption>
+                <p class="autor">Clarice Lispector</p>
+                <p class="avaliation flex">
+                  <img src="./assets/image.css/icons8-estrela-48.png" alt="Star">
+                  <img src="./assets/image.css/icons8-estrela-48.png" alt="Star">
+                  <img src="./assets/image.css/icons8-estrela-48.png" alt="Star">
+                  <img src="./assets/image.css/icons8-estrela-48.png" alt="Star">
+                  <img src="./assets/image.css/icons8-estrela-48 (1).png" alt="Star">
+                </p>
+              </div>
+              <p class="price pd-05 flex align-items-center">R$23,40</p>
+            </div>
+            <p class="description py-05">
+              <strong>Sinopse do livro:</strong> Em 'A Hora da Estrela', Clarice Lispector retrata o cotidiano de uma nordestina solitária no Rio de Janeiro com profundidade emocional.
+            </p>
+          </figure>
+        </div>
+      </div>
+    </section>
+    
+    <section class="content-container">
+      <h2 class="mt-4" id="fiction">Ficção</h2>
+      <div class="cards container flex justify-space-between my-4">
+        <div class="content-cards pd-2 mg-05">
+          <figure>
+            <img class="pb-05" 
+            src="https://m.media-amazon.com/images/I/41PVVpQf-sL._SY445_SX342_.jpg" 
+            alt="Livro Fahrenheit 451 de Ray Bradbury">
+            <div class="flex justify-space-between">
+              <div>
+                <figcaption>Fahrenheit 451</figcaption>
+                <p class="autor">Ray Bradbury</p>
+                <p class="avaliation flex">
+                  <img src="./assets/image.css/icons8-estrela-48.png" alt="Star">
+                  <img src="./assets/image.css/icons8-estrela-48.png" alt="Star">
+                  <img src="./assets/image.css/icons8-estrela-48.png" alt="Star">
+                  <img src="./assets/image.css/icons8-estrela-48.png" alt="Star">
+                  <img src="./assets/image.css/icons8-estrela-48 (1).png" alt="Star">
+                </p>
+              </div>
+              <p class="price pd-05 flex align-items-center">R$35,92</p>
+            </div>
+            <p class="description py-05">
+              <strong>Sinopse do livro:</strong> Em 'Fahrenheit 451', Ray Bradbury descreve uma sociedade distópica que proíbe livros, explorando temas de censura e liberdade.
+            </p>
+          </figure>
+        </div>
+        
+        <div class="content-cards pd-2 mg-05">
+          <figure>
+            <img class="pb-05" 
+            src="https://m.media-amazon.com/images/I/41aVasi7pML._SY445_SX342_.jpg" 
+            alt="Livro O Código Da Vinci de Dan Brown">
+            <div class="flex justify-space-between">
+              <div>
+                <figcaption>O Código Da Vinci</figcaption>
+                <p class="autor">Dan Brown</p>
+                <p class="avaliation flex">
+                  <img src="./assets/image.css/icons8-estrela-48.png" alt="Star">
+                  <img src="./assets/image.css/icons8-estrela-48.png" alt="Star">
+                  <img src="./assets/image.css/icons8-estrela-48.png" alt="Star">
+                  <img src="./assets/image.css/icons8-estrela-48 (1).png" alt="Star">
+                  <img src="./assets/image.css/icons8-estrela-48 (1).png" alt="Star">
+                </p>
+              </div>
+              <p class="price pd-05 flex align-items-center">R$40,68</p>
+            </div>
+            <p class="description py-05">
+              <strong>Sinopse do livro:</strong> Em 'O Código Da Vinci', Dan Brown combina arte, religião e conspirações em uma trama de mistério e suspense envolvente.
+            </p>
+          </figure>
+        </div>
+        
+        <div class="content-cards pd-2 mg-05">
+          <figure>
+            <img class="pb-05" 
+            src="https://m.media-amazon.com/images/I/41MRn6hy8-L._SY445_SX342_.jpg" 
+            alt="Livro Duna: Livro 01 de Frank Herbert">
+            <div class="flex justify-space-between">
+              <div>
+                <figcaption>Duna</figcaption>
+                <p class="autor">Frank Herbert</p>
+                <p class="avaliation flex">
+                  <img src="./assets/image.css/icons8-estrela-48.png" alt="Star">
+                  <img src="./assets/image.css/icons8-estrela-48.png" alt="Star">
+                  <img src="./assets/image.css/icons8-estrela-48.png" alt="Star">
+                  <img src="./assets/image.css/icons8-estrela-48.png" alt="Star">
+                  <img src="./assets/image.css/icons8-estrela-48 (1).png" alt="Star">
+                </p>
+              </div>
+              <p class="price pd-05 flex align-items-center">R$79,90</p>
+            </div>
+            <p class="description py-05">
+              <strong>Sinopse do livro:</strong> Na obra de Frank Herbert, mergulhe em um épico de intriga, poder e ecologia em um universo futurista distópico.
+            </p>
+          </figure>
+        </div>
+      </div>
+    </section>
+    
+    <section class="content-container">
+      <h2 class="mt-4" id="romance">Romance</h2>
+      <div class="cards container flex justify-space-between my-4">
+        <div class="content-cards pd-2 mg-05">
+          <figure>
+            <img class="pb-05" 
+            src="https://m.media-amazon.com/images/I/51Aep6qdvwL._SY445_SX342_.jpg" 
+            alt="Livro Imperfeitos de Christina Laura">
+            <div class="flex justify-space-between">
+              <div>
+                <figcaption>Imperfeitos</figcaption>
+                <p class="autor">Christina Laura</p>
+                <p class="avaliation flex">
+                  <img src="./assets/image.css/icons8-estrela-48.png" alt="Star">
+                  <img src="./assets/image.css/icons8-estrela-48.png" alt="Star">
+                  <img src="./assets/image.css/icons8-estrela-48.png" alt="Star">
+                  <img src="./assets/image.css/icons8-estrela-48 (1).png" alt="Star">
+                  <img src="./assets/image.css/icons8-estrela-48 (1).png" alt="Star">
+                </p>
+              </div>
+              <p class="price pd-05 flex align-items-center">R$22,90</p>
+            </div>
+            <p class="description py-05">
+              <strong>Sinopse do livro:</strong> Em "Imperfeitos" de Christina Lauren, uma mulher enfrenta dilemas éticos e românticos ao apaixonar-se por um paciente proibido.
+            </p>
+          </figure>
+        </div>
+        
+        <div class="content-cards pd-2 mg-05">
+          <figure>
+            <img class="pb-05" 
+            src="https://m.media-amazon.com/images/I/51E+5jqplTL._SY445_SX342_.jpg" 
+            alt="Livro Romeu e Julieta de William Shakespeare">
+            <div class="flex justify-space-between">
+              <div>
+                <figcaption>Romeu e Julieta</figcaption>
+                <p class="autor">William Shakespeare</p>
+                <p class="avaliation flex">
+                  <img src="./assets/image.css/icons8-estrela-48.png" alt="Star">
+                  <img src="./assets/image.css/icons8-estrela-48.png" alt="Star">
+                  <img src="./assets/image.css/icons8-estrela-48.png" alt="Star">
+                  <img src="./assets/image.css/icons8-estrela-48.png" alt="Star">
+                  <img src="./assets/image.css/icons8-estrela-48.png" alt="Star">
+                </p>
+              </div>
+              <p class="price pd-05 flex align-items-center">R$18,59</p>
+            </div>
+            <p class="description py-05">
+              <strong>Sinopse do livro:</strong> Em 'Romeu e Julieta', o amor proibido entre dois jovens de famílias rivais culmina em tragédia e reconciliação póstuma.
+            </p>
+          </figure>
+        </div>
+        
+        <div class="content-cards pd-2 mg-05">
+          <figure>
+            <img class="pb-05" 
+            src="https://m.media-amazon.com/images/I/91ZdXgBfUeL._SY425_.jpg" 
+            alt="Livro Atração Fatal de Maeve Burns">
+            <div class="flex justify-space-between">
+              <div>
+                <figcaption>Atração Fatal</figcaption>
+                <p class="autor">Maeve Burns</p>
+                <p class="avaliation flex">
+                  <img src="./assets/image.css/icons8-estrela-48.png" alt="Star">
+                  <img src="./assets/image.css/icons8-estrela-48.png" alt="Star">
+                  <img src="./assets/image.css/icons8-estrela-48.png" alt="Star">
+                  <img src="./assets/image.css/icons8-estrela-48 (1).png" alt="Star">
+                  <img src="./assets/image.css/icons8-estrela-48 (1).png" alt="Star">
+                </p>
+              </div>
+              <p class="price pd-05 flex align-items-center">R$37,92</p>
+            </div>
+            <p class="description py-05">
+              <strong>Sinopse do livro:</strong> Uma profunda reimaginação do suspense clássico dos anos 1980, explorando temas atemporais de casamento e infidelidade.
+            </p>
+          </figure>
+        </div>
+      </div>
+    </section>
+    
+    <section class="content-container">
+      <h2 class="mt-4" id="tech">Tecnologia</h2>
+      <div class="cards container flex justify-space-between my-4">
+        <div class="content-cards pd-2 mg-05">
+          <figure>
+            <img class="pb-05" 
+            src="https://img.skoob.com.br/AIDwLZkjJQkNPg1vQLGLqSO088o=/200x/center/top/smart/filters:format(jpeg)/https://skoob.s3.amazonaws.com/livros/439373/SAPIENS_1513639649439373SK1513639649B.jpg" 
+            alt="Livro Sapiens: Uma Breve História da Humanidade de Yuval Noah Harari">
+            <div class="flex justify-space-between">
+              <div>
+                <figcaption>Sapiens</figcaption>
+                <p class="autor">Yuval Noah Harari</p>
+                <p class="avaliation flex">
+                  <img src="./assets/image.css/icons8-estrela-48.png" alt="Star">
+                  <img src="./assets/image.css/icons8-estrela-48.png" alt="Star">
+                  <img src="./assets/image.css/icons8-estrela-48.png" alt="Star">
+                  <img src="./assets/image.css/icons8-estrela-48.png" alt="Star">
+                  <img src="./assets/image.css/icons8-estrela-48 (1).png" alt="Star">
+                </p>
+              </div>
+              <p class="price pd-05 flex align-items-center">R$61,54</p>
+            </div>
+            <p class="description py-05">
+              <strong>Sinopse do livro:</strong> Explora a história da humanidade desde os primórdios até os avanços tecnológicos modernos.
+            </p>
+          </figure>
+        </div>
+        
+        <div class="content-cards pd-2 mg-05">
+          <figure>
+            <img class="pb-05" 
+            src="https://img.skoob.com.br/w-FK4CLr5iA2jDtu7Ps4UPH11j4=/200x/center/top/smart/filters:format(jpeg)/https://skoob.s3.amazonaws.com/livros/6009/A_MAQUINA_DO_TEMPO_14312898936009SK1431289893B.jpg" 
+            alt="Livro A Máquina do Tempo de H.G. Wells">
+            <div class="flex justify-space-between">
+              <div>
+                <figcaption>Máquina do Tempo</figcaption>
+                <p class="autor">H.G. Wells</p>
+                <p class="avaliation flex">
+                  <img src="./assets/image.css/icons8-estrela-48.png" alt="Star">
+                  <img src="./assets/image.css/icons8-estrela-48.png" alt="Star">
+                  <img src="./assets/image.css/icons8-estrela-48.png" alt="Star">
+                  <img src="./assets/image.css/icons8-estrela-48.png" alt="Star">
+                  <img src="./assets/image.css/icons8-estrela-48 (1).png" alt="Star">
+                </p>
+              </div>
+              <p class="price pd-05 flex align-items-center">R$39,67</p>
+            </div>
+            <p class="description py-05">
+              <strong>Sinopse do livro:</strong> Um clássico da ficção científica que explora conceitos de viagem no tempo e suas implicações tecnológicas.
+            </p>
+          </figure>
+        </div>
+        
+        <div class="content-cards pd-2 mg-05">
+          <figure>
+            <img class="pb-05" 
+            src="https://img.skoob.com.br/-t2fmu20BoEUoLqW_vMS_0Ry3Xw=/200x/center/top/smart/filters:format(jpeg)/https://skoob.s3.amazonaws.com/livros/77509/CODIGO_LIMPO_1262882912B.jpg" 
+            alt="Livro Código Limpo - Habilidades Práticas do Agile Software de Robert C. Martin">
+            <div class="flex justify-space-between">
+              <div>
+                <figcaption>Código Limpo</figcaption>
+                <p class="autor">Robert C. Martin</p>
+                <p class="avaliation flex">
+                  <img src="./assets/image.css/icons8-estrela-48.png" alt="Star">
+                  <img src="./assets/image.css/icons8-estrela-48.png" alt="Star">
+                  <img src="./assets/image.css/icons8-estrela-48.png" alt="Star">
+                  <img src="./assets/image.css/icons8-estrela-48.png" alt="Star">
+                  <img src="./assets/image.css/icons8-estrela-48 (1).png" alt="Star"">
+                </p>
+              </div>
+              <p class="price pd-05 flex align-items-center">R$90,56</p>
+            </div>
+            <p class="description py-05">
+              <strong>Sinopse do livro:</strong> Guia de práticas para escrever código claro, eficiente e sustentável, promovendo qualidade e colaboração na programação.
+            </p>
+          </figure>
+        </div>
+      </div>
+      
+      <div class="prev">
+        <p><a href="#prev">Voltar ao início</a></p>
+      </div>
+    </section>
+    
     <section class="about py-3 my-3" id="sobrenos">
       <div class="container">
-        <h2 class="pb-15">Sobre nós!</h2>
+        <h2 class="pb-15">Sobre Nós</h2>
         <p>
           OxeTech-Livraria é onde as histórias ganham vida e os mundos 
           se encontram. Nossa missão é levar você em uma jornada literária que 
           transcende os limites da imaginação. Explore os reinos do romance, 
           mergulhe nas aventuras da ficção, descubra os segredos da tecnologia e 
-          encontre inspiração no auto conhecimento. Na OxeTech-Livraria, cada página é uma 
-          porta para um universo de possibilidades. Venha fazer parte dessa 
-          jornada e deixe sua imaginação voar alto!
+          encontre inspiração no auto conhecimento. Na OxeTech-Livraria, cada 
+          página é uma porta para um universo de possibilidades. Venha fazer 
+          parte dessa jornada e deixe sua imaginação voar alto!
         </p>
       </div>
     </section>
   </main>
+  <a href="./collaborator.html">Área do colaborador(a)</a>
   
   <footer>
-    <a href="./collaborator.html">Sou colaborador(a)</a>
+    <div class="container flex flex-direction-column align-items-center">
+      
+      <div class="flex justify-space-between">
+        <img class="pt-1"
+        src="./assets/image.css/icons8-instagram.svg" 
+        alt="Logo Instagram">
+        
+        <img class="pt-1"
+        src="./assets/image.css/icons8-linkedin.svg" 
+        alt="Logo Linkedin">
+        
+        <img class="pt-1"
+        src="./assets/image.css/icons8-twitter.svg" 
+        alt="Logo Twitter">
+      </div>
+      <p class="py-2">Copyright &copy - Livraria OxeTech - 2024</p>
+    </div>
   </footer>
   
   <script src="./carousel.js"></script>
