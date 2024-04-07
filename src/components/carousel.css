@@ -25,7 +25,7 @@ slider-wrapper {
 .slide-arrow {
   background-color: var(--color-primary);
   position: absolute;
-  top: 65%;
+  top: 60%;
   margin: auto;
   height: 4rem;
   border: none;
@@ -51,9 +51,14 @@ slider-wrapper {
 }
 
 .slides-container h3 {
+  color: var(--color-white);
   text-align: center;
   font-size: 4rem;
   font-weight: 800;
+}
+.slides-container h3 a {
+  color: var(--color-white);
+  text-decoration: none;
 }
 
 .slide {
