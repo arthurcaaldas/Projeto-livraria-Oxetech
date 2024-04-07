@@ -7,3 +7,8 @@ footer {
 footer img {
   width: 48px;
 }
+
+.content-collaborator {
+  text-align: center;
+  color: #f58220;
+}
