@@ -11,7 +11,7 @@ class Services{
         return dataSource[this.model].findOne();
     }
     async createRegistro(dados){
-        return dataSource[this.model].crate(dados);
+        return dataSource[this.model].create(dados);
     }
 
     async updateRegistro(dadosAtualizados, id){

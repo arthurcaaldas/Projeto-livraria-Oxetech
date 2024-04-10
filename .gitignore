@@ -18,6 +18,8 @@ vendor/
 venv/
 .venv/
 *.egg-info/
+package-lock.json
+.eslintrc.json
 
 # Arquivos de build e cache
 .cache/
