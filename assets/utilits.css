@@ -26,12 +26,14 @@
 .pt-15 { padding-top: 1.5rem; }
 .pt-2 { padding-top: 2rem; }
 .pt-4 { padding-top: 4rem; }
+.pt-7 { padding-top: 7rem; }
 
 .pb-0 { padding-bottom: 0; }
 .pb-05 { padding-bottom: .5rem; }
 .pb-1 { padding-bottom: 1rem; }
 .pb-15 { padding-bottom: 1.5rem; }
 .pb-2 { padding-bottom: 2rem; }
+.pb-5 { padding-bottom: 5rem; }
 
 .px-0 { padding-left: 0; padding-right: 0; }
 .px-05 { padding-left: .5rem; padding-left: .5rem; }

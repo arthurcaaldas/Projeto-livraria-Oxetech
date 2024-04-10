@@ -1,3 +1,7 @@
+.carousel {
+  height: 100vh;
+}
+
 h1 {
   color: var(--color-primary);
   font-size: 3rem;
@@ -15,9 +19,9 @@ slider-wrapper {
 }
 
 .slides-container {
-  height: 70vh;
+  height: 60vh;
   width: 100%;
-  overflow: scroll;
+  overflow: hidden;
   scroll-behavior: smooth;
   list-style: none;
 }
