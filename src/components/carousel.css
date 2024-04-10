@@ -19,9 +19,9 @@ slider-wrapper {
 }
 
 .slides-container {
-  height: 60vh;
+  height: 70vh;
   width: 100%;
-  overflow: hidden;
+  overflow: scroll;
   scroll-behavior: smooth;
   list-style: none;
 }
