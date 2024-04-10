@@ -10,7 +10,9 @@ module.exports = (sequelize, DataTypes) => {
      * The `models/index` file will call this method automatically.
      */
     static associate(models) {
-      // define association here
+      Editora.belongsTo(models.Livro, {
+        foreignKey: 'CNPJ',
+      })
     }
   }
   Editora.init({
@@ -19,6 +21,7 @@ module.exports = (sequelize, DataTypes) => {
   }, {
     sequelize,
     modelName: 'Editora',
+    tableName: 'editoras',
   });
   return Editora;
 };

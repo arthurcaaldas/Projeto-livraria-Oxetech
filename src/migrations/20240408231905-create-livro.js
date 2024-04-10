@@ -19,11 +19,13 @@ module.exports = {
       },
       Editora_id: {
         allowNull: false,
-        type: Sequelize.INTEGER
+        type: Sequelize.INTEGER,
+        references: {model: 'editoras', key: 'CNPJ'}
       },
       Autor_id: {
         allowNull: false,
-        type: Sequelize.INTEGER
+        type: Sequelize.INTEGER,
+        references: {model: 'autores', key: 'id'}
       },
       createdAt: {
         allowNull: false,
