@@ -14,7 +14,6 @@ module.exports = {
         type: Sequelize.STRING
       },
       CNPJ: {
-        allowNull: false,
         type: Sequelize.STRING
       },
       createdAt: {

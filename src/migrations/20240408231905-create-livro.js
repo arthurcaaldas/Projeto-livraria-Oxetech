@@ -10,20 +10,16 @@ module.exports = {
         type: Sequelize.INTEGER
       },
       Titulo: {
-        allowNull: false,
         type: Sequelize.STRING
       },
       Preco: {
-        allowNull: false,
         type: Sequelize.DOUBLE
       },
       Editora_id: {
-        allowNull: false,
         type: Sequelize.INTEGER,
         references: {model: 'editoras', key: 'CNPJ'}
       },
       Autor_id: {
-        allowNull: false,
         type: Sequelize.INTEGER,
         references: {model: 'autores', key: 'id'}
       },
