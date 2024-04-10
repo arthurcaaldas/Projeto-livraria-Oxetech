@@ -28,8 +28,8 @@ class Controller{
     async create(req,res){
         const novoRegistro = req.body;
         try{
-            const novoRegistroCriado = await this.entidadeService.criaRegistro(novoRegistro);
-            res.status(201).json({
+            const novoRegistroCriado = await this.entidadeService.createRegistro(novoRegistro);
+            res.status(200).json({
                 message:'Registro Criado',
                 novoRegistro: novoRegistroCriado
             });
@@ -42,7 +42,7 @@ class Controller{
         const id = req.params.id;
         const dadosAtualizados = req.body;
         try{
-            const foiAtualizado = await this.entidadeService.atualizaRegistro(dadosAtualizados,Number(id));
+            const foiAtualizado = await this.entidadeService.updateRegistro(dadosAtualizados,Number(id));
             if(foiAtualizado){
                 return res.status(200).json({message:'Atualizado com sucesso'});
             }
@@ -55,7 +55,7 @@ class Controller{
     async delete(req,res){
         const id = req.params.id;
         try{
-            const foiDeletado = await this.entidadeService.deletaRegistro(Number(id));
+            const foiDeletado = await this.entidadeService.deleteRegistro(Number(id));
             if(foiDeletado){
                 return res.status(200).json({message:'Deletado com sucesso'});
             }
