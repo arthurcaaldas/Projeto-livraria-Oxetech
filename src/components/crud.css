@@ -1,0 +1,12 @@
+.crud label {
+  margin-bottom: 2px;
+}
+
+.crud select {
+  padding: 10px 30px 10px;
+  border: none;
+  background-color: var(--color-primary);
+  color: var(--color-white);
+  border-radius: 10px;
+  font-size: 1rem;
+}
