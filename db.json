@@ -1,9 +1,18 @@
+[
+  {
+      "username": "arthur",
+      "password": "123"
+  },
+  {
+    "username": "andrezza",
+    "password": "123"
+},
 {
-  "posts": [
-    { 
-    "id": "1", 
-    "Usuario": "arthur", 
-    "Senha": 123 
-  }
-]
+  "username": "albert",
+  "password": "123"
+},
+{
+  "username": "adenizia",
+  "password": "123"
 }
+]
