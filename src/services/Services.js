@@ -7,8 +7,8 @@ class Services{
     async getTodosRegistros(){
         return dataSource[this.model].findAll();
     }
-    async getRegistroPorId(id){
-        return dataSource[this.model].findOne();
+    async getRegistroPorID(id){
+        return dataSource[this.model].findByPk(id);
     }
     async createRegistro(dados){
         return dataSource[this.model].create(dados);
